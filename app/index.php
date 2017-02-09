@@ -16,7 +16,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
-        
+            <?php include 'welcome.php' ?>
         </header>
 
        <?php include 'design_graph.php' ?>
