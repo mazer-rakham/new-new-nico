@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 787.17 330.77">
+  <defs>
+    <style>
+
+    </style>
+  </defs>
+  <title>development_graph</title>
+  <rect class="devgraph-1" x="22.66" y="110.27" width="749.86" height="55.13"/>
+  <rect class="devgraph-2" x="195.93" y="165.39" width="403.31" height="55.13"/>
+  <rect class="devgraph-1" x="177.92" y="220.53" width="439.33" height="55.13"/>
+  <rect class="devgraph-2" x="213.17" y="275.65" width="368.83" height="55.13"/>
+  <rect class="devgraph-2" y="55.16" width="787.17" height="55.13"/>
+  <rect class="devgraph-1" x="87.93" width="611.31" height="55.13"/>
+</svg>

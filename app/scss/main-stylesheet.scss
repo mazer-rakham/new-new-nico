@@ -1,1 +1,69 @@
-.test{ }
+.welcome1 {
+    fill: #29abe2;
+}
+
+.myface-1,
+.myface-2,
+.myface-3 {
+    fill: none;
+    stroke-miterlimit: 10;
+}
+
+.myface-1 {
+    stroke: blue;
+}
+
+.myface-1,
+.myface-2 {
+    stroke-width: 0.5px;
+}
+
+.myface-2,
+.myface-3 {
+    stroke: #000;
+}
+
+#my-face-container {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#welcome-container {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#design-graph-container,
+#development-graph-container,
+#go-to-workflow-container {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+#go-to-workflow-container {
+    position:relative;
+    #environments-container {
+        position:absolute;
+        top:110px;
+        text-align: center;
+    }
+    #goto-codes {
+        position:absolute;
+        top:110px;
+        right:0;
+        text-align: center;
+    }
+}
+.devgraph-1 {
+    fill: #e6e6e6;
+}
+
+.devgraph-2 {
+    fill: #6f6;
+}
+
+.goto-1 {
+    fill: #ff931e;
+}
