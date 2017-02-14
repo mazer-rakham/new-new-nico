@@ -12,6 +12,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Comfortaa:700" rel="stylesheet">
     <link href="/css/main-stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -49,26 +50,28 @@
         <?php include 'development-graph.php' ?>
     </div>
     <div id="go-to-workflow-container">
-       
-       
         <div>
             <p>And Environments</p>
-        <?php include 'go-to-workflow.php' ?>
-        
+            <?php include 'go-to-workflow.php' ?>
         </div>
-         <div id="environments-container">
+        <div id="environments-container">
             <p>VSCODE</p>
             <p>GULP</p>
             <p>GITHUB</p>
             <p></p>
         </div>
-         <div id="goto-codes">
+        <div id="goto-codes">
             <p>BOOTSTRAP</p>
             <p>GSAP</p>
             <p>JQUERY</p>
             <p>PHP</p>
             <p>MySQL</p>
         </div>
+    </div>
+    <h1 id="about-me-h1">Well Hmmmm..... about me, not too much just the norm...</h1>
+    <div id="main-about-container">
+        <?php include 'about-me.php' ?>
+        <img src="/images/me_snowboard_blackandwhite.png" alt="I like to snowboard">
     </div>
     <?php include 'footer.php' ?>
 </body>

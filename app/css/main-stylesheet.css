@@ -30,22 +30,45 @@
 
 #design-graph-container,
 #development-graph-container,
-#go-to-workflow-container {
+#go-to-workflow-container,
+#main-about-container {
   width: 600px;
   max-width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
+
+#design-graph-container div {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 20px; }
+  #design-graph-container div p {
+    margin: 10px auto; }
+    #design-graph-container div p:first-child {
+      margin: 5px auto; }
+
+#development-graph-container div {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Barrio', cursive;
+  font-weight: bold; }
 
 #go-to-workflow-container {
   position: relative; }
   #go-to-workflow-container #environments-container {
     position: absolute;
     top: 110px;
-    text-align: center; }
+    left: -45px;
+    text-align: center;
+    font-size: 24px; }
   #go-to-workflow-container #goto-codes {
     position: absolute;
     top: 110px;
-    right: 0;
-    text-align: center; }
+    right: -68px;
+    text-align: center;
+    font-size: 24px; }
 
 .devgraph-1 {
   fill: #e6e6e6; }
@@ -55,3 +78,13 @@
 
 .goto-1 {
   fill: #ff931e; }
+
+#main-about-container h1 {
+  font-family: 'Barrio', cursive;
+  text-align: center;
+  font-size: 60px; }
+
+#about-me-h1 {
+  font-family: 'Barrio', cursive;
+  text-align: center;
+  font-size: 60px; }
