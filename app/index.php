@@ -12,11 +12,19 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Barrio|Comfortaa:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Comfortaa:700|Syncopate:700" rel="stylesheet">
     <link href="/css/main-stylesheet.css" rel="stylesheet" type="text/css" />
+    <style>
+
+    #test {
+        position:fixed;
+        z-index:9999;
+    }
+    </style>
 </head>
 
 <body>
+    <button id="test">test</button>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -30,42 +38,45 @@
     </header>
     <div id="design-graph-container">
         <div>
-            <p>Illustrator</p>
-            <p>Inkscape</p>
-            <p>Photoshop</p>
+            <p>ILLUSTRATOR</p>
+            <p>INKSCAPE</p>
+            <p>PHOTOSHOP</p>
             <p>GIMP</p>
-            <p>SVG Animations</p>
-            <p>JavaScript Animations</p>
+            <p>SVG ANIMATIONS</p>
+            <p>JAVASCRIPT ANAMATIONS</p>
         </div>
         <?php include 'design-graph.php' ?>
     </div>
     <div id="development-graph-container">
         <div>
-            <p>JavaScript</p>
+            <p>JAVASCRIPT</p>
             <p>HTML</p>
             <P>CSS</P>
-            <p>MySQL</p>
-            <p>MongoDB</p>
+            <p>MYSQL</p>
+            <p>PHP</p>
+            <p>MONGODB</p>
         </div>
         <?php include 'development-graph.php' ?>
     </div>
-    <div id="go-to-workflow-container">
-        <div>
-            <p>And Environments</p>
-            <?php include 'go-to-workflow.php' ?>
-        </div>
-        <div id="environments-container">
-            <p>VSCODE</p>
-            <p>GULP</p>
-            <p>GITHUB</p>
-            <p></p>
-        </div>
-        <div id="goto-codes">
-            <p>BOOTSTRAP</p>
-            <p>GSAP</p>
-            <p>JQUERY</p>
-            <p>PHP</p>
-            <p>MySQL</p>
+    <div id="outside-workflow-wrapper">
+        <div id="go-to-workflow-container">
+            <div>
+                <p id="and-enviroments-line">And Environments</p>
+                <?php include 'go-to-workflow.php' ?>
+            </div>
+            <div id="environments-container">
+                <p>VSCODE</p>
+                <p>GULP</p>
+                <p>GITHUB</p>
+                <p></p>
+            </div>
+            <div id="goto-codes">
+                <p>BOOTSTRAP</p>
+                <p>GSAP</p>
+                <p>JQUERY</p>
+                <p>PHP</p>
+                <p>MySQL</p>
+            </div>
         </div>
     </div>
     <h1 id="about-me-h1">Well Hmmmm..... about me, not too much just the norm...</h1>

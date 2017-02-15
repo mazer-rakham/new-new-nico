@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+  position: relative; }
+
+body {
+  height: 100%;
+  position: relative; }
+
 .welcome1 {
   fill: #29abe2; }
 
@@ -21,52 +29,88 @@
 #my-face-container {
   width: 400px;
   max-width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 50%;
+  position: relative; }
+  #my-face-container svg {
+    position: relative; }
+
+header {
+  height: 200%;
+  position: relative; }
 
 #welcome-container {
   width: 600px;
   max-width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  height: 50%;
+  top: 0; }
+  #welcome-container svg {
+    position: relative;
+    top: 35%; }
 
 #design-graph-container,
 #development-graph-container,
-#go-to-workflow-container,
 #main-about-container {
   width: 600px;
   max-width: 100%;
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+  height: 100%; }
 
-#design-graph-container div {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  font-size: 20px; }
-  #design-graph-container div p {
-    margin: 10px auto; }
-    #design-graph-container div p:first-child {
-      margin: 5px auto; }
+#design-graph-container {
+  top: 40%; }
+  #design-graph-container div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive; }
+    #design-graph-container div p {
+      margin: 19.5px auto; }
+      #design-graph-container div p:first-child {
+        margin: 12px auto; }
 
 #development-graph-container div {
   position: absolute;
   text-align: center;
   width: 100%;
   font-size: 20px;
-  font-family: 'Barrio', cursive;
+  font-family: 'Comfortaa', cursive;
   font-weight: bold; }
+  #development-graph-container div p {
+    margin: 19.5px auto; }
+    #development-graph-container div p:first-child {
+      margin: 12px auto; }
+
+#and-enviroments-line {
+  position: relative;
+  top: 140px;
+  text-align: center; }
+
+#outside-workflow-wrapper {
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto; }
 
 #go-to-workflow-container {
-  position: relative; }
+  position: relative;
+  margin-left: 95px;
+  margin-right: 95px;
+  font-family: 'Syncopate', sans-serif; }
   #go-to-workflow-container #environments-container {
     position: absolute;
     top: 110px;
-    left: -45px;
+    left: -90px;
     text-align: center;
-    font-size: 24px; }
+    font-size: 35px; }
   #go-to-workflow-container #goto-codes {
     position: absolute;
     top: 110px;
-    right: -68px;
+    right: -95px;
     text-align: center;
     font-size: 24px; }
 

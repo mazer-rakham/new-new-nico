@@ -1,3 +1,12 @@
+html {
+   height:100%;
+    position:relative;
+}
+body {
+    height:100%;
+    position:relative;
+   
+}
 .welcome1 {
     fill: #29abe2;
 }
@@ -27,64 +36,108 @@
     width: 400px;
     max-width: 100%;
     margin: 0 auto;
+    height:50%;
+    position: relative;
+    svg {
+        position:relative;
+    }
 }
-
+header {
+    height:200%;
+    position:relative;
+}
 #welcome-container {
     width: 600px;
     max-width: 100%;
     margin: 0 auto;
+    position: relative;
+    height: 50%;
+    top:0;
+    svg {
+        position: relative;
+        top:35%;
+    }
 }
 
 #design-graph-container,
 #development-graph-container,
-#go-to-workflow-container,
 #main-about-container {
     width: 600px;
     max-width: 100%;
     margin: 0 auto;
-    position:relative;
+    position: relative;
+    height:100%;
 }
+
 #design-graph-container {
+    top:40%;
     div {
-        position:absolute;
+        position: absolute;
         text-align: center;
-        width:100%;
+        width: 100%;
         font-size: 20px;
+        font-family: 'Comfortaa', cursive;
         p {
-            margin:10px auto;
+            margin: 19.5px auto;
             &:first-child {
-                margin:5px auto;
+                margin: 12px auto;
             }
         }
     }
 }
+
 #development-graph-container {
     div {
-        position:absolute;
+        position: absolute;
         text-align: center;
-        width:100%;
+        width: 100%;
         font-size: 20px;
-        font-family: 'Barrio', cursive;
-        font-weight:bold;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        p {
+            margin: 19.5px auto;
+            &:first-child {
+                margin: 12px auto;
+            }
+        }
     }
 }
+
+#and-enviroments-line {
+    position: relative;
+    top: 140px;
+    text-align: center;
+}
+
+#outside-workflow-wrapper {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
 #go-to-workflow-container {
-    position:relative;
+    position: relative;
+    margin-left: 95px;
+    margin-right: 95px;
+    font-family: 'Syncopate', sans-serif;
     #environments-container {
-        position:absolute;
-        top:110px;
-        left:-45px;
+        position: absolute;
+        top: 110px;
+        left: -90px;
         text-align: center;
-        font-size: 24px;
+        font-size: 35px;
     }
     #goto-codes {
-        position:absolute;
-        top:110px;
-        right:-68px;
+        position: absolute;
+        top: 110px;
+        right: -95px;
         text-align: center;
         font-size: 24px;
     }
 }
+
 .devgraph-1 {
     fill: #e6e6e6;
 }
@@ -96,16 +149,17 @@
 .goto-1 {
     fill: #ff931e;
 }
+
 #main-about-container {
     h1 {
         font-family: 'Barrio', cursive;
         text-align: center;
-        font-size:60px;
+        font-size: 60px;
     }
 }
+
 #about-me-h1 {
-       font-family: 'Barrio', cursive;
-        text-align: center;
-        font-size:60px;
-    
+    font-family: 'Barrio', cursive;
+    text-align: center;
+    font-size: 60px;
 }
