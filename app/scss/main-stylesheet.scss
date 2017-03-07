@@ -7,10 +7,13 @@ body {
     position:relative;
    
 }
-.welcome1 {
-    fill: #29abe2;
-}
 
+.welcome-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
 .myface-1,
 .myface-2,
 .myface-3 {

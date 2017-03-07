@@ -1,16 +1,29 @@
-  
+TweenMax.set('.welcome-1',{drawSVG:'0%'});
+TweenMax.set('.myface-1',{drawSVG:'0%'});
+TweenMax.set('.myface-2',{drawSVG:'0%'});
+TweenMax.set('.myface-3',{drawSVG:'0%'});
    
 $(document).ready(function () {
     MorphSVGPlugin.convertToPath("circle, rect, ellipse, line, polygon, polyline");
 $('#test').click(function(){
     
-    TweenMax.to('.welcome1',1,{opacity:0});
+    
 });
    
-
-
-
-
+setTimeout(function(){
+    TweenMax.staggerTo('.welcome-1',0.3,{drawSVG:'100%'},0.2);
+},2000);
+var controller = new ScrollMagic.Controller();
+var myfaceTween = new TimelineMax()
+    .to('.myface-1',0.5,{drawSVG:'100%'},'myface1')
+    .to('.myface-2',0.5,{drawSVG:'100%'},'myface1')
+    .to('.myface-3',0.5,{drawSVG:'100%'},'myface1');
+var myfaceAnimation = new ScrollMagic.Scene({
+    triggerElement:'#my-face-container'
+})
+.setTween(myfaceTween)
+.addIndicators()
+.addTo(controller);
 
 
 
