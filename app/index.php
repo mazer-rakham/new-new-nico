@@ -15,11 +15,10 @@
     <link href="https://fonts.googleapis.com/css?family=Barrio|Comfortaa:700|Syncopate:700" rel="stylesheet">
     <link href="/css/main-stylesheet.css" rel="stylesheet" type="text/css" />
     <style>
-
-    #test {
-        position:fixed;
-        z-index:9999;
-    }
+        #test {
+            position: fixed;
+            z-index: 9999;
+        }
     </style>
 </head>
 
@@ -31,6 +30,19 @@
     <header>
         <div id="welcome-container">
             <?php include 'welcome.php' ?>
+            <div>
+                <?php include 'scroll-attention-arrow.php' ?>
+            </div>
+
+        </div>
+        <div id="main-about-me">
+            <h1>My name is Shawn Flock, and I make websites.</h1>
+            <h3>Do I design?</h3>
+            <h3>Do I develop?</h3>
+            <h2>Yes!</h2>
+            <h3>I started as a TCP/IP tester and Network Acess Solutions in Herndon Virginia</h3>
+            <h3>I have always been an artist and took graphic design in school, I started messing with HTML in my early 20's and by the time I hit thirty I had learned everything from front to back.</h3>
+            
         </div>
         <div id="my-face-container">
             <?php include 'my-face.php' ?>

@@ -1,8 +1,6 @@
 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 755.69 656.49">
   <defs>
-    <style>
   
-    </style>
   </defs>
   <title>scroll_attention_arrow</title>
   <path class="scrollAttention-1" d="M640.94,301.58c10.17,17.8,25.8,37.69,50,49,47.2,22.06,92.28-4.75,98,6,9.85,18.53-82,72-155,103,8-41-1.7-191.83,9-168,11,24.5,13.89,16.93,36,33,30.43,22.11,69.63,21.63,102,16" transform="translate(-38.98 -0.01)"/>

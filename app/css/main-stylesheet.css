@@ -6,6 +6,17 @@ body {
   height: 100%;
   position: relative; }
 
+.scrollAttention-1, .scrollAttention-2 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10; }
+
+.scrollAttention-1 {
+  stroke-width: 10px; }
+
+.scrollAttention-2 {
+  stroke-width: 5px; }
+
 .welcome-1 {
   fill: none;
   stroke: #000;
@@ -52,6 +63,14 @@ header {
   #welcome-container svg {
     position: relative;
     top: 35%; }
+  #welcome-container div {
+    width: 40%;
+    max-width: 100%;
+    position: relative;
+    left: 60%; }
+
+#main-about-me {
+  text-align: center; }
 
 #design-graph-container,
 #development-graph-container,
