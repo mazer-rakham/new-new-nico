@@ -6,7 +6,8 @@ body {
   height: 100%;
   position: relative; }
 
-.scrollAttention-1, .scrollAttention-2 {
+.scrollAttention-1,
+.scrollAttention-2 {
   fill: none;
   stroke: #000;
   stroke-miterlimit: 10; }

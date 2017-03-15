@@ -2,7 +2,7 @@ TweenMax.set('.welcome-1',{drawSVG:'0%'});
 TweenMax.set('.myface-1',{drawSVG:'0%'});
 TweenMax.set('.myface-2',{drawSVG:'0%'});
 TweenMax.set('.myface-3',{drawSVG:'0%'});
-   
+TweenMax.set('.linetest-1',{drawSVG:'0% 0%'});   
 $(document).ready(function () {
     MorphSVGPlugin.convertToPath("circle, rect, ellipse, line, polygon, polyline");
 $('#test').click(function(){
@@ -22,11 +22,17 @@ var myfaceAnimation = new ScrollMagic.Scene({
     triggerElement:'#my-face-container'
 })
 .setTween(myfaceTween)
-.addIndicators()
 .addTo(controller);
 
-
-
+var lineTestTween = new ScrollMagic.Scene({
+    triggerElement:'#go-to-workflow-container',
+    triggerHook:0,
+    duration:'100%'
+})
+.setTween(TweenMax.to('.linetest-1',1,{drawSVG:'0% 100%'}))
+.addIndicators()
+.setPin('#go-to-workflow-container')
+.addTo(controller);
 
 
 

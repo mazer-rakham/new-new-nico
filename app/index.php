@@ -39,16 +39,21 @@
             <h1>My name is Shawn Flock, and I make websites.</h1>
             <h3>Do I design?</h3>
             <h3>Do I develop?</h3>
-            <h2>Yes!</h2>
+            <h2>Ummm....yeah</h2>
             <h3>I started as a TCP/IP tester and Network Acess Solutions in Herndon Virginia</h3>
-            <h3>I have always been an artist and took graphic design in school, I started messing with HTML in my early 20's and by the time I hit thirty I had learned everything from front to back.</h3>
-            
+            <h3>I have always been an artist and took graphic design in school, I started messing with HTML in my early 20's
+                and by the time I hit thirty I had learned everything from front to back.</h3>
+
         </div>
         <div id="my-face-container">
+            <h1>Kinda what I look like.....</h1>
             <?php include 'my-face.php' ?>
+
         </div>
+        <h3>I like to mess with Javascript animations, I also like being on the cutting edge of code practices.</p>
     </header>
     <div id="design-graph-container">
+        <h3>My skill level on the "design" side of things. </h3>
         <div>
             <p>ILLUSTRATOR</p>
             <p>INKSCAPE</p>
@@ -60,6 +65,7 @@
         <?php include 'design-graph.php' ?>
     </div>
     <div id="development-graph-container">
+        <h3>My representation of my development skills...</h3>
         <div>
             <p>JAVASCRIPT</p>
             <p>HTML</p>
@@ -72,23 +78,8 @@
     </div>
     <div id="outside-workflow-wrapper">
         <div id="go-to-workflow-container">
-            <div>
-                <p id="and-enviroments-line">And Environments</p>
-                <?php include 'go-to-workflow.php' ?>
-            </div>
-            <div id="environments-container">
-                <p>VSCODE</p>
-                <p>GULP</p>
-                <p>GITHUB</p>
-                <p></p>
-            </div>
-            <div id="goto-codes">
-                <p>BOOTSTRAP</p>
-                <p>GSAP</p>
-                <p>JQUERY</p>
-                <p>PHP</p>
-                <p>MySQL</p>
-            </div>
+          <?php include 'go-to-workflow.php' ?>
+
         </div>
     </div>
     <h1 id="about-me-h1">Well Hmmmm..... about me, not too much just the norm...</h1>
