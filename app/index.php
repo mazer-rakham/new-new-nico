@@ -77,10 +77,19 @@
         <?php include 'development-graph.php' ?>
     </div>
     <div id="outside-workflow-wrapper">
+        <div>
+            <p>Speak with my clients to get and idea</p>
+            <p>Draw up a rough draft</p>
+        </div>
+        <div>
+            
+        </div>
         <div id="go-to-workflow-container">
-          <?php include 'go-to-workflow.php' ?>
+
+            <?php include 'go-to-workflow.php' ?>
 
         </div>
+
     </div>
     <h1 id="about-me-h1">Well Hmmmm..... about me, not too much just the norm...</h1>
     <div id="main-about-container">
