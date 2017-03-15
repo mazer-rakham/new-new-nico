@@ -1,31 +1,35 @@
 html {
-   height:100%;
-    position:relative;
+    height: 100%;
+    position: relative;
 }
+
 body {
-    height:100%;
-    position:relative;
-   
+    height: 100%;
+    position: relative;
 }
-    .scrollAttention-1, .scrollAttention-2 {
-        fill: none;
-        stroke: #000;
-        stroke-miterlimit: 10;
-      }
 
-      .scrollAttention-1 {
-        stroke-width: 10px;
-      }
+.scrollAttention-1,
+.scrollAttention-2 {
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
 
-      .scrollAttention-2 {
-        stroke-width: 5px;
-      }
+.scrollAttention-1 {
+    stroke-width: 10px;
+}
+
+.scrollAttention-2 {
+    stroke-width: 5px;
+}
+
 .welcome-1 {
-        fill: none;
-        stroke: #000;
-        stroke-miterlimit: 10;
-        stroke-width: 6px;
-      }
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 6px;
+}
+
 .myface-1,
 .myface-2,
 .myface-3 {
@@ -51,37 +55,41 @@ body {
     width: 400px;
     max-width: 100%;
     margin: 0 auto;
-    height:50%;
+    height: 50%;
     position: relative;
     svg {
-        position:relative;
+        position: relative;
     }
 }
+
 header {
-    height:200%;
-    position:relative;
+    height: 200%;
+    position: relative;
 }
+
 #welcome-container {
     width: 600px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
     height: 50%;
-    top:0;
+    top: 0;
     svg {
         position: relative;
-        top:35%;
+        top: 35%;
     }
     div {
-        width:40%;
-        max-width:100%;
-        position:relative;
-        left:60%;
+        width: 40%;
+        max-width: 100%;
+        position: relative;
+        left: 60%;
     }
 }
+
 #main-about-me {
-    text-align:center;
+    text-align: center;
 }
+
 #design-graph-container,
 #development-graph-container,
 #main-about-container {
@@ -89,11 +97,11 @@ header {
     max-width: 100%;
     margin: 0 auto;
     position: relative;
-    height:100%;
+    height: 100%;
 }
 
 #design-graph-container {
-    top:40%;
+    top: 40%;
     div {
         position: absolute;
         text-align: center;
