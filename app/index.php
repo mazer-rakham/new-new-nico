@@ -77,19 +77,32 @@
         <?php include 'development-graph.php' ?>
     </div>
     <div id="outside-workflow-wrapper">
-        <div>
+        <div id="dg-1">
+            <h1>1</h1>
             <p>Speak with my clients to get and idea</p>
             <p>Draw up a rough draft</p>
+            <p>Wire frames</p>
         </div>
-        <div>
-            
+        <div id="dg-2">
+            <h1>2</h1>
+            <p>UXPin mock ups</p>
+          
+            <p>Iron out the details before any code gets out</p>
         </div>
-        <div id="go-to-workflow-container">
-
-            <?php include 'go-to-workflow.php' ?>
-
+        <div id="dg-3">
+            <h1>3</h1>
+            <p>Start the coding</p>
+            <p>Create the needed databases and server side code first</p>
+            <p>Ensure dynamic content is working correctly before font end coding begins</p>
+            <p>I use gulp to stream line my process, and php / sql combo for my sites' backend</p>
         </div>
-
+        <div id="dg-4">
+            <h1>4</h1>
+            <p>Finally write and complete my font end code.</p>
+            <p>Deliver the final product!</p>
+            <h3>GSAP, JQuery, & Bootstrap are my most used front end libraries</h3>
+        </div>
+    
     </div>
     <h1 id="about-me-h1">Well Hmmmm..... about me, not too much just the norm...</h1>
     <div id="main-about-container">
